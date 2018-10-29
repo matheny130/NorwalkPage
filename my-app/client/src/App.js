@@ -1,5 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
+import { Route, Router } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Callback from "./Callback/Callback";
+import Navbar from "./components/Navbar/Navbar";
+import Park from "./pages/Park";
+import School from "./pages/School";
+import Business from "./pages/Business"
 import './App.css';
 
 class App extends Component {
