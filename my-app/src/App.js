@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, Router } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Callback from "./Callback/Callback";
-import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Pages/Home";
+//import Callback from "./Callback/Callback";
+//import Navbar from "./components/Navbar/Navbar";
 import Park from "./components/Pages/Park";
 import School from "./components/Pages/School";
 import Business from "./components/Pages/Business"
@@ -11,7 +11,7 @@ import './App.css';
 const App = () => (
   <Router>
     <div>
-      <Navbar />
+
       <Route exact path="/" component={Home} />
       <Route exact path="/park" component={Park} />
       <Route exact path="/school" component={School} />
