@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Pages/Home";
 //import Callback from "./Callback/Callback";
 //import Navbar from "./components/Navbar/Navbar";
