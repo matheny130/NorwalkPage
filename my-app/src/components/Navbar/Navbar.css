@@ -4,9 +4,8 @@
 
 #nav {
     /* background-image: url("../../images/chalkboard.jpg"); */
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 #logo {
     color: white;
     /* background-image: url("../../images/chalkboard.jpg"); */
@@ -20,7 +19,7 @@
 
 #qsLoginBtn,#qsLogoutBtn, #qsProfileBtn{
   font-family: 'Gaegu', cursive;
-  background-image: url("../../images/paper.jpg");
+  /*background-image: url("../../images/paper.jpg");*/
   color: black;
   font-size: 24px;
 }
@@ -30,6 +29,6 @@
 }
 
 .navbar-toggler{
-    background-image: url("../../images/paper.jpg");
+    /*background-image: url("../../images/paper.jpg");*/
 
 }

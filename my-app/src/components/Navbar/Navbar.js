@@ -1,6 +1,6 @@
 import React from "react";
-import history from "../../history";
-import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+//import history from "../../history";
+import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './Navbar.css'
 
 class NavExample extends React.Component {
@@ -36,24 +36,58 @@ class NavExample extends React.Component {
 
       <div id="nav">
         <Navbar color="faded" light>
-          <NavbarBrand href="/" className="text-center"><p id="logo">QuizMe</p></NavbarBrand>
+          <NavbarBrand href="/" className="text-center"><p id="logo">City of Norwalk</p></NavbarBrand>
 
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-              <NavItem>
-
-                <NavLink href="#" onClick={() => history.replace("/")}><p id="link">Home</p></NavLink>
-
-              </NavItem>
-              <NavItem>
-
-                <NavLink href="#" onClick={() => history.replace("/quizzes")}><p id="link">View Quizzes</p></NavLink>
-
-              </NavItem>
-              <NavItem>
-                <NavLink href="#" onClick={() => history.replace("/newquiz")}><p id="link">Create a Quiz</p></NavLink>
-              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Parks
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    Option 1
+                  </DropdownItem>
+                  <DropdownItem>
+                    Option 2
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+                <DropdownToggle nav caret>
+                  Schools
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    Option 1
+                  </DropdownItem>
+                  <DropdownItem>
+                    Option 2
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+                <DropdownToggle nav caret>
+                  Businesses
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    Option 1
+                  </DropdownItem>
+                  <DropdownItem>
+                    Option 2
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>
