@@ -1,6 +1,6 @@
 import React from "react";
 //import history from "../../history";
-import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './Navbar.css'
 
 class NavExample extends React.Component {
@@ -41,7 +41,7 @@ class NavExample extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-
+              <UncontrolledDropdown>
                 <DropdownToggle nav caret>
                   Parks
                 </DropdownToggle>
@@ -87,6 +87,7 @@ class NavExample extends React.Component {
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
+              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>
