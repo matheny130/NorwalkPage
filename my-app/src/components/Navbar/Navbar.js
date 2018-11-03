@@ -19,9 +19,13 @@ class NavExample extends React.Component {
             <Nav navbar>
               <NavLink>
                 Parks
-
-               </NavLink>
-
+              </NavLink>
+              <NavLink>
+                Schools
+              </NavLink>
+              <NavLink>
+                Businesses
+              </NavLink>
             </Nav>
 
         </Navbar>
