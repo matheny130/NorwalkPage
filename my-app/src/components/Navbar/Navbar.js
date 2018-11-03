@@ -1,6 +1,6 @@
 import React from "react";
 //import history from "../../history";
-import { Navbar, NavbarBrand, Nav, NavLink, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavLink, Row, Col } from 'reactstrap';
 import './Navbar.css'
 
 class NavExample extends React.Component {
@@ -16,17 +16,25 @@ class NavExample extends React.Component {
           <NavbarBrand href="/" className="text-center"><p>City of Norwalk</p></NavbarBrand>
 
 
-            <Nav navbar>
-              <NavLink>
-                Parks
-              </NavLink>
-              <NavLink>
-                Schools
-              </NavLink>
-              <NavLink>
-                Businesses
-              </NavLink>
-            </Nav>
+          <Nav navbar>
+            <Row>
+              <Col>
+                <NavLink>
+                  Parks
+                </NavLink>
+              </Col>
+              <Col>
+                <NavLink>
+                  Schools
+                </NavLink>
+              </Col>
+              <Col>
+                <NavLink>
+                  Businesses
+                </NavLink>
+              </Col>
+            </Row>
+          </Nav>
 
         </Navbar>
       </div>
