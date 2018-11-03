@@ -19,17 +19,17 @@ class NavExample extends React.Component {
           <Nav navbar>
             <Row>
               <Col>
-                <NavLink>
+                <NavLink href="/parks">
                   Parks
                 </NavLink>
               </Col>
               <Col>
-                <NavLink>
+                <NavLink href="/schools">
                   Schools
                 </NavLink>
               </Col>
               <Col>
-                <NavLink>
+                <NavLink href="/businesses">
                   Businesses
                 </NavLink>
               </Col>
