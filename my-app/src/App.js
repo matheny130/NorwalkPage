@@ -4,9 +4,9 @@ import Home from "./components/Pages/Home";
 //import NavTabs from "./components/NavTabs";
 //import Callback from "./Callback/Callback";
 import Navbar from "./components/Navbar/Navbar";
-import Park from "./components/Pages/Park";
-import School from "./components/Pages/School";
-import Business from "./components/Pages/Business"
+import Park from "./components/Pages/Parks/parksHome";
+import School from "./components/Pages/Schools/schoolsHome";
+import Business from "./components/Pages/Businesses/businessHome"
 import './App.css';
 
 const App = () => (
