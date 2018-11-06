@@ -1,16 +1,46 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./parks.css";
+import Reservoir from "./reservoir.js";
+import Ernsthausen from "./ernsthausen.js";
+import Fair from "./fair.js";
 
-const Park = () => (
-  <div>
-    <h1>Park Page</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
-  </div>
-);
+
+
+
+class Park extends React.Component {
+
+
+
+
+  render() {
+    return (
+      <Router>
+        <div>
+          <ul>
+            <li>
+              <Link to="/reservoir">Reservoir</Link>
+            </li>
+            <li>
+              <Link to="/ernsthausen">Rec Center</Link>
+            </li>
+            <li>
+              <Link to="/fair">Fair Grounds</Link>
+            </li>
+          </ul>
+
+          <hr />
+
+          <Route exact path="/reservoir" component={Reservoir} />
+          <Route exact path="/ernsthausen" component={Ernsthausen} />
+          <Route exact path="/fair" component={Fair} />
+        </div>
+      </Router>
+    );
+  }
+
+
+
+}
 
 export default Park;
