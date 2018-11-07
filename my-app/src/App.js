@@ -6,7 +6,8 @@ import Home from "./components/Pages/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Park from "./components/Pages/Parks/parksHome";
 import School from "./components/Pages/Schools/schoolsHome";
-import Business from "./components/Pages/Businesses/businessHome"
+import EconDev from "./components/Pages/EconDev/econDevHome";
+
 import './App.css';
 
 const App = () => (
@@ -16,7 +17,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route path="/parks" component={Park} />
       <Route path="/schools" component={School} />
-      <Route path="/businesses" component={Business} />
+      <Route path="/econDev" component={EconDev} />
     </div>
   </Router>
 );
