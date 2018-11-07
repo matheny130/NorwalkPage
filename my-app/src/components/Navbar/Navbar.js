@@ -19,18 +19,33 @@ class NavExample extends React.Component {
           <Nav navbar>
             <Row>
               <Col>
+                <NavLink href="/">
+                  Home
+                </NavLink>
+              </Col>
+              <Col>
+                <NavLink href="/community">
+                  Our Community
+                </NavLink>
+              </Col>
+              <Col>
                 <NavLink href="/parks">
                   Parks
                 </NavLink>
               </Col>
               <Col>
-                <NavLink href="/schools">
-                  Schools
+                <NavLink href="/departments">
+                  Departments
                 </NavLink>
               </Col>
               <Col>
-                <NavLink href="/businesses">
-                  Businesses
+                <NavLink href="/econdev">
+                  Economic Development
+                </NavLink>
+              </Col>
+              <Col>
+                <NavLink href="/contact">
+                  Contact
                 </NavLink>
               </Col>
             </Row>
