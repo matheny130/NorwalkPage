@@ -2,7 +2,7 @@ import React from "react";
 //import history from "../../history";
 import { Navbar, NavbarBrand, Nav, NavLink, Row, Col } from 'reactstrap';
 import './Navbar.css';
-import  "../Images/cityseal.jpg"
+import CitySeal from "../../images/index.js"
 
 class NavExample extends React.Component {
 
@@ -14,8 +14,7 @@ class NavExample extends React.Component {
 
       <div id="nav">
         <Navbar color="faded" light>
-          <NavbarBrand href="/" className="text-center"><img src="../Images/cityseal.jpg" alt=""></img></NavbarBrand>
-
+          <NavbarBrand href="/" className="text-center"><CitySeal /></NavbarBrand>
 
           <Nav navbar>
             <Row>
