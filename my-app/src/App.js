@@ -5,7 +5,7 @@ import Home from "./components/Pages/Home";
 //import Callback from "./Callback/Callback";
 import Navbar from "./components/Navbar/Navbar";
 import Park from "./components/Pages/Parks/parksHome";
-import School from "./components/Pages/Schools/schoolsHome";
+import School from "./components/Pages/Community/schoolsHome";
 import EconDev from "./components/Pages/EconDev/econDevHome";
 
 import './App.css';
