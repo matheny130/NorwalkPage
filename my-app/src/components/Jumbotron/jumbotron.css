@@ -1,17 +1,19 @@
 #jumbotron {
   font-family: 'Yesteryear', cursive;
-  background-color: green;
+  background: url(../../images/fallleaves.jpg);
 }
 
 #tron {
-  font-size: 30px;
-  color: whitesmoke;
-  padding-left: 10px;
+  font-size: 50px;
+  color: whitesmoke;  /* Fallback: assume this color ON TOP of image */
+  padding-left: 20px;
+  text-shadow: 2px 2px black;
 }
 
 #jumbo {
-  font-size: 30px;
-  color: whitesmoke;
+  font-size: 50px;
+  color: whitesmoke;  /* Fallback: assume this color ON TOP of image */
   float: right;
-  padding-right: 10px;
+  padding-right: 20px;
+  text-shadow: 2px 2px black;
 }
