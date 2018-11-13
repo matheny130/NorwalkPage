@@ -1,6 +1,7 @@
 #jumbotron {
   font-family: 'Yesteryear', cursive;
-  background: url(../../images/fallleaves.jpg);
+  background: url(../../images/fallleaves.jpg) no-repeat;
+  background-size: cover;
 }
 
 #tron {
