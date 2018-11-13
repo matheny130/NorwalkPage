@@ -12,47 +12,8 @@ class Jumbotron extends Component {
   render() {
     return (
 
-      <div id="nav">
-        <Navbar color="faded" light>
-
-          <NavbarBrand href="/" className="text-center"> <CitySeal /></NavbarBrand>
-
-          <Nav navbar>
-            <Row>
-              <Col>
-                <NavLink href="/">
-                  Home
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/community">
-                  Our Community
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/parks">
-                  Parks
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/departments">
-                  Departments
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/econdev">
-                  Economic Development
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/contact">
-                  Contact
-                </NavLink>
-              </Col>
-            </Row>
-          </Nav>
-
-        </Navbar>
+      <div id="jumbotron">
+        <p id="tron">The Maple City<a id="jumbo">Norwalk, OH</a></p>
       </div>
     );
   }

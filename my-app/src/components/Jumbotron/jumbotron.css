@@ -1,0 +1,17 @@
+#jumbotron {
+  font-family: 'Yesteryear', cursive;
+  background-color: green;
+}
+
+#tron {
+  font-size: 30px;
+  color: whitesmoke;
+  padding-left: 10px;
+}
+
+#jumbo {
+  font-size: 30px;
+  color: whitesmoke;
+  float: right;
+  padding-right: 10px;
+}
