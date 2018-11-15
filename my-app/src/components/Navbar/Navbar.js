@@ -31,7 +31,7 @@ class NavExample extends Component {
                     <div class="col-lg-1-xs-4 phone-nav" id="link">
                       <a id="navbar-link" href="/econdev">Economic Development</a>
                     </div>
-                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                    <div class="col-lg-1-xs-4 phone-nav" id="link1">
                       <a id="navbar-link" href="/contact">Contact</a>
                     </div>
                   </div>

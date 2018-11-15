@@ -1,10 +1,21 @@
 
 #navbar-link {
   color: #fff;
-
 }
 .navbar-custom {
   background-color: black;
+}
 
+#link {
   display: inline-block;
+  padding-right: 42px;
+  margin-right: 75px;
+  padding-left: 75px;
+}
+
+#link1 {
+  display: inline-block;
+  padding-right: 42px;
+
+  padding-left: 42px;
 }
