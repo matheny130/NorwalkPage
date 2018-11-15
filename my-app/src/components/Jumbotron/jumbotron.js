@@ -13,7 +13,7 @@ class Jumbotron extends Component {
     return (
 
       <div id="jumbotron">
-        <p id="tron">The Maple City<a id="jumbo">Norwalk, OH</a></p>
+        <p id="tron">Norwalk, OH<a id="jumbo">The Maple City</a></p>
       </div>
     );
   }
