@@ -12,48 +12,36 @@ class NavExample extends Component {
   render() {
     return (
 
-      <div id="nav">
-        <Navbar color="faded" light>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid navbar-custom">
+                <div class="row">
+                  <div class="col-lg-4-xs-12 phone-nav" id="links">
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/">Home</a>
+                    </div>
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/community">Community</a>
+                    </div>
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/parks">Parks</a>
+                    </div>
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/departments">Departments</a>
+                    </div>
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/econdev">Economic Development</a>
+                    </div>
+                    <div class="col-lg-1-xs-4 phone-nav" id="link">
+                      <a id="navbar-link" href="/contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
 
-         <NavbarBrand href="/" className="text-center"> <CitySeal /></NavbarBrand>
 
-          <Nav navbar>
-            <Row>
-              <Col>
-                <NavLink href="/">
-                  Home
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/community">
-                  Our Community
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/parks">
-                  Parks
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/departments">
-                  Departments
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/econdev">
-                  Economic Development
-                </NavLink>
-              </Col>
-              <Col>
-                <NavLink href="/contact">
-                  Contact
-                </NavLink>
-              </Col>
-            </Row>
-          </Nav>
 
-        </Navbar>
-      </div>
+
     );
   }
 
@@ -62,3 +50,5 @@ class NavExample extends Component {
 }
 
 export default NavExample;
+
+
