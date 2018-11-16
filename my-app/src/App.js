@@ -6,7 +6,7 @@ import Home from "./components/Pages/Home";
 import Jumbotron from "./components/Jumbotron/jumbotron"
 import Navbar from "./components/Navbar/Navbar";
 import Park from "./components/Pages/Parks/parksHome";
-import School from "./components/Pages/Community/schoolsHome";
+import Community from "./components/Pages/Community/communityHome";
 import EconDev from "./components/Pages/EconDev/econDevHome";
 
 import './App.css';
@@ -18,7 +18,7 @@ const App = () => (
       <Navbar />
       <Route exact path="/" component={Home} />
       <Route path="/parks" component={Park} />
-      <Route path="/schools" component={School} />
+      <Route path="/community" component={Community} />
       <Route path="/econDev" component={EconDev} />
     </div>
   </Router>

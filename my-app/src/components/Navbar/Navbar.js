@@ -20,7 +20,7 @@ class NavExample extends Component {
                       <a id="navbar-link" href="/">Home</a>
                     </div>
                     <div class="col-lg-1-xs-4 phone-nav" id="link">
-                      <a id="navbar-link" href="/schools">Community</a>
+                      <a id="navbar-link" href="/community">Community</a>
                     </div>
                     <div class="col-lg-1-xs-4 phone-nav" id="link">
                       <a id="navbar-link" href="/parks">Parks</a>
