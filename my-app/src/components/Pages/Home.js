@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home = () => (
-  <div>
+  <div id="page">
     <h1>Home Page</h1>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,

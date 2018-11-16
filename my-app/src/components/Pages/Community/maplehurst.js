@@ -1,7 +1,7 @@
 import React from "react";
 
 const Maplehurst = () => (
-  <div>
+  <div id="page">
     <h1>Maplehurst Page</h1>
     <p>
       A school

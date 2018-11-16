@@ -1,7 +1,7 @@
 import React from "react";
 
 const League = () => (
-  <div>
+  <div id="page">
     <h1>League Page</h1>
     <p>
       A school

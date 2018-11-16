@@ -16,7 +16,7 @@ class Park extends React.Component {
   render() {
     return (
       <Router>
-        <div>
+        <div id="page">
           <ul>
             <li>
               <Link to="/reservoir">Reservoir</Link>

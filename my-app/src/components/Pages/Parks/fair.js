@@ -1,7 +1,7 @@
 import React from "react";
 
 const Fair = () => (
-  <div>
+  <div id="page">
     <h1>Fair Grounds</h1>
     <p>
       Fairgrounds

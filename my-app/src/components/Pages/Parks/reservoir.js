@@ -1,7 +1,7 @@
 import React from "react";
 
 const Reservoir = () => (
-  <div>
+  <div id="page">
     <h1>Reservoir Page</h1>
     <p>
       Outdoor activities, disc golf

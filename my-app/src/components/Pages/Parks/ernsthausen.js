@@ -1,7 +1,7 @@
 import React from "react";
 
 const Ernsthausen = () => (
-  <div>
+  <div id="page">
     <h1>Rec Center</h1>
     <p>
       Pools, workout, basketball, running
