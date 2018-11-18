@@ -32,8 +32,8 @@ class School extends React.Component {
           <hr />
 
           <Route exact path="/maplehurst" component={Maplehurst} />
-          <Route path="/league" component={League} />
-          <Route path="/high" component={High} />
+          <Route exact path="/league" component={League} />
+          <Route exact path="/high" component={High} />
         </div>
       </Router>
     );
