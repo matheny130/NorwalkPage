@@ -1,0 +1,17 @@
+
+#navbar-link {
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+.page {
+  background-color: red;
+  margin-top: -15px;
+}
+
+#community-link {
+  display: inline-block;
+  padding-right: 42px;
+  margin-right: 75px;
+  padding-left: 75px;
+  color: white;
+}
