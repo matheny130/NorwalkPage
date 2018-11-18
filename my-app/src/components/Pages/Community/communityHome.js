@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./community.css";
 import Schools from "./schoolsHome.js";
+import History from "./history.js";
+import Hospital from "./hospital.js";
 
 
 
@@ -18,22 +20,21 @@ class Community extends React.Component {
       <Router>
         <div class="page">
           <div class="row">
-            <div class="col-lg-4-xs-12 phone-nav" id="links">
-              <div class="col-lg-1-xs-4 phone-nav" id="community-link">
-                <a id="page-link" href="/">Home</a>
-              </div>
-              <Link to="/schoolsHome">Schools</Link>
-
-              <div class="col-lg-1-xs-4 phone-nav" id="community-link">
-                <a id="page-link" href="/schools/league">Hospital</a>
-              </div>
-              <div class="col-lg-1-xs-4 phone-nav" id="community-link">
-                <a id="page-link" href="/schools/highSchool">History</a>
-              </div>
-
-            </div>
+            <ul>
+              <li>
+                <Link to="/schoolsHome">Schools</Link>
+              </li>
+              <li>
+                <Link to="/history">History</Link>
+              </li>
+              <li>
+                <Link to="/hospital">Hospital</Link>
+              </li>
+            </ul>
           </div>
           <Route exact path="/schoolsHome" component={Schools} />
+          <Route exact path="/history" component={History} />
+          <Route exact path="/hospital" component={Hospital} />
         </div>
       </Router>
     );
