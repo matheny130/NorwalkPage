@@ -18,13 +18,13 @@ class Schools extends React.Component {
     <Router>
         <div class="page">
           <ul>
-            <li>
+            <li id="school-link">
               <Link to="/maplehurst">Maplehurst</Link>
             </li>
-            <li>
+            <li id="school-link">
               <Link to="/league">League</Link>
             </li>
-            <li>
+            <li id="school-link">
               <Link to="/high">High School</Link>
             </li>
           </ul>
