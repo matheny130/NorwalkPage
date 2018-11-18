@@ -4,8 +4,9 @@
   font-family: 'Playfair Display', serif;
 }
 .navbar-custom {
-  background-color: black;
+  background-color: blue;
   margin-top: -15px;
+  color: #fff;
 }
 
 #link {
@@ -13,11 +14,11 @@
   padding-right: 42px;
   margin-right: 75px;
   padding-left: 75px;
+
 }
 
 #link1 {
   display: inline-block;
   padding-right: 42px;
-
   padding-left: 50px;
 }
