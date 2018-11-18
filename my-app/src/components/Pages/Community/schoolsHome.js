@@ -16,7 +16,7 @@ class Schools extends React.Component {
   render() {
     return (
     <Router>
-        <div class="page">
+        <div class="school-page">
           <ul>
             <li id="school-link">
               <Link to="/maplehurst">Maplehurst</Link>

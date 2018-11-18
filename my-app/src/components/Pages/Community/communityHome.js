@@ -32,11 +32,15 @@ class Community extends React.Component {
               </li>
             </ul>
           </div>
-          <Route exact path="/schoolsHome" component={Schools} />
-          <Route exact path="/history" component={History} />
-          <Route exact path="/hospital" component={Hospital} />
+          <div class="community-link-content">
+            <Route exact path="/schoolsHome" component={Schools} />
+            <Route exact path="/history" component={History} />
+            <Route exact path="/hospital" component={Hospital} />
+          </div>
         </div>
+
       </Router>
+
     );
   }
 
