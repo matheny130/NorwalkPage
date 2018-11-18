@@ -18,16 +18,16 @@ class Community extends React.Component {
   render() {
     return (
       <Router>
-        <div class="page">
+        <div class="community-page">
           <div class="row">
             <ul>
-              <li>
+              <li id="community-link">
                 <Link to="/schoolsHome">Schools</Link>
               </li>
-              <li>
+              <li id="community-link">
                 <Link to="/history">History</Link>
               </li>
-              <li>
+              <li id="community-link">
                 <Link to="/hospital">Hospital</Link>
               </li>
             </ul>

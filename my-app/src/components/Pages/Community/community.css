@@ -3,9 +3,9 @@
   color: black;
   font-family: 'Playfair Display', serif;
 }
-.page {
+.community-page {
   background-color: red;
-  margin-top: -15px;
+
 }
 
 #community-link {
@@ -13,5 +13,10 @@
   padding-right: 42px;
   margin-right: 75px;
   padding-left: 75px;
+  color: white;
+  margin: auto;
+}
+
+Link {
   color: white;
 }
