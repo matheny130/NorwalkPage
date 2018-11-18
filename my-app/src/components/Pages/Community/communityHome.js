@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./community.css";
-import  Schools  from "./schoolsHome.js";
+import Schools from "./schoolsHome.js";
+
 
 
 
