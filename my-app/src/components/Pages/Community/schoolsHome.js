@@ -16,10 +16,18 @@ class Schools extends React.Component {
   render() {
     return (
     <Router>
-      <div class="page">
-            <Link to="/league">League St.</Link>
-            <Link to="/maplehurst">Maplehurst</Link>
-            <Link to="/high">High School</Link>
+        <div class="page">
+          <ul>
+            <li>
+              <Link to="/maplehurst">Maplehurst</Link>
+            </li>
+            <li>
+              <Link to="/league">League</Link>
+            </li>
+            <li>
+              <Link to="/high">High School</Link>
+            </li>
+          </ul>
           <Route exact path="/league" component={League} />
           <Route exact path="/maplehurst" component={Maplehurst} />
           <Route exact path="/high" component={High} />
