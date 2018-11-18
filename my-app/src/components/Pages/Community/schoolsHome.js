@@ -8,7 +8,7 @@ import League from "./league.js";
 
 
 
-class School extends React.Component {
+class Schools extends React.Component {
 
 
 
@@ -17,7 +17,8 @@ class School extends React.Component {
     return (
     <Router>
       <div class="page">
-        <div class="row">
+          <div class="row">
+            <Link to={League}>League St.</Link>
             <div class="col-lg-4-xs-12 phone-nav" id="links">
               <div class="col-lg-1-xs-4 phone-nav" id="school-link">
                 <a id="navbar-link" href="/">Home</a>
@@ -45,4 +46,4 @@ class School extends React.Component {
 
 }
 
-export default School;
+export default Schools;
