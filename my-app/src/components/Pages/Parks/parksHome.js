@@ -18,13 +18,13 @@ class Park extends React.Component {
       <Router>
         <div id="page">
           <ul>
-            <li>
+            <li id="parks-link">
               <Link to="/reservoir">Reservoir</Link>
             </li>
-            <li>
+            <li id="parks-link">
               <Link to="/ernsthausen">Rec Center</Link>
             </li>
-            <li>
+            <li id="parks-link">
               <Link to="/fair">Fair Grounds</Link>
             </li>
           </ul>
