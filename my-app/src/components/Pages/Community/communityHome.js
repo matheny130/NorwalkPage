@@ -22,7 +22,7 @@ class Community extends React.Component {
           <div class="row">
             <ul>
               <li id="community-link">
-                <Link to="/schoolsHome">Schools</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "'Fredericka the Great', cursive" }} to="/schoolsHome">Schools</Link>
               </li>
               <li id="community-link">
                 <Link to="/history">History</Link>
