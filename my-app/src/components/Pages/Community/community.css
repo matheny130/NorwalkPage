@@ -1,10 +1,10 @@
 
-#page-link {
-  color: black;
-  font-family: 'Playfair Display', serif;
+#community-links {
+  margin-bottom: -10px;
+  background-color: red;
 }
 .community-page {
-  background-color: red;
+  background-color: white;
 }
 
 #community-link {
@@ -16,6 +16,3 @@
   margin: auto;
 }
 
-Link {
-  color: white;
-}

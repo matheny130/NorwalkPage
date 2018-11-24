@@ -18,8 +18,8 @@ class Community extends React.Component {
   render() {
     return (
       <Router>
-        <div class="community-page">
-          <div class="row">
+        <div className="community-page">
+          <div id="community-links">
             <ul>
               <li id="community-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/schoolsHome">Schools</Link>
