@@ -22,13 +22,13 @@ class Community extends React.Component {
           <div class="row">
             <ul>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "'Playfair Display', serif" }} to="/schoolsHome">Schools</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/schoolsHome">Schools</Link>
               </li>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "'Playfair Display', serif" }} to="/history">History</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/history">History</Link>
               </li>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "'Playfair Display', serif" }} to="/hospital">Hospital</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/hospital">Hospital</Link>
               </li>
             </ul>
           </div>
