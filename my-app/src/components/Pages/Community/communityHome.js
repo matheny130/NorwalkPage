@@ -11,14 +11,9 @@ import Hospital from "./hospital.js";
 
 
 class Community extends React.Component {
-
-
-
-
   render() {
     return (
       <Router>
-
           <div className="community-page">
             <div id="community-links">
               <ul>
