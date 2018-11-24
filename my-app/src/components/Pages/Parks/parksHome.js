@@ -20,13 +20,13 @@ class Park extends React.Component {
           <div id="parks-links">
             <ul>
               <li id="parks-link">
-                <Link to="/reservoir">Reservoir</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/reservoir">Reservoir</Link>
               </li>
               <li id="parks-link">
-                <Link to="/ernsthausen">Rec Center</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/ernsthausen">Rec Center</Link>
               </li>
               <li id="parks-link">
-                <Link to="/fair">Fair Grounds</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/fair">Fair Grounds</Link>
               </li>
             </ul>
           </div>

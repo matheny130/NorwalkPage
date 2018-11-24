@@ -1,11 +1,11 @@
 
-#navbar-link {
-  color: black;
-  font-family: 'Playfair Display', serif;
+#school-links {
+  margin-bottom: -10px;
+  ;
+  background-color: rgb(3, 94, 40);
 }
 .school-page {
-  background-color: rgb(3, 94, 40);
-  color: white;
+  background-color: white;
 }
 
 #school-link {
@@ -14,4 +14,5 @@
   margin-right: 75px;
   padding-left: 75px;
   color: white;
+  margin: auto;
 }
