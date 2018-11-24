@@ -1,7 +1,5 @@
 
 #school-links {
-  margin-bottom: -10px;
-  ;
   background-color: rgb(3, 94, 40);
 }
 .school-page {
@@ -13,6 +11,7 @@
   padding-right: 42px;
   margin-right: 75px;
   padding-left: 75px;
+
   color: white;
   margin: auto;
 }

@@ -9,15 +9,11 @@ import League from "./league.js";
 
 
 class Schools extends React.Component {
-
-
-
-
   render() {
     return (
     <Router>
         <div className="school-page">
-          <div id="school-links">>
+          <div id="school-links">
             <ul>
               <li id="school-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/maplehurst">Maplehurst</Link>
@@ -30,9 +26,11 @@ class Schools extends React.Component {
               </li>
             </ul>
           </div>
-          <Route exact path="/league" component={League} />
-          <Route exact path="/maplehurst" component={Maplehurst} />
-          <Route exact path="/high" component={High} />
+          <div className="school-link-content">
+            <Route exact path="/league" component={League} />
+            <Route exact path="/maplehurst" component={Maplehurst} />
+            <Route exact path="/high" component={High} />
+          </div>
         </div>
     </Router>
     );
