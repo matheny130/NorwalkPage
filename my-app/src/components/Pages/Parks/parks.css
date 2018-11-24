@@ -5,6 +5,9 @@
 #parks-links {
   margin-bottom: -10px;
   background-color: yellowgreen;
+  width: 1200px;
+  padding-left: 100px;
+  margin: auto;
 }
 
 #parks-link {
