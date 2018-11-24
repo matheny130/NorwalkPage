@@ -16,24 +16,25 @@ class Park extends React.Component {
   render() {
     return (
       <Router>
-        <div id="page">
-          <ul>
-            <li id="parks-link">
-              <Link to="/reservoir">Reservoir</Link>
-            </li>
-            <li id="parks-link">
-              <Link to="/ernsthausen">Rec Center</Link>
-            </li>
-            <li id="parks-link">
-              <Link to="/fair">Fair Grounds</Link>
-            </li>
-          </ul>
+        <div className="parks-page">
+          <div id="parks-links">
+            <ul>
+              <li id="parks-link">
+                <Link to="/reservoir">Reservoir</Link>
+              </li>
+              <li id="parks-link">
+                <Link to="/ernsthausen">Rec Center</Link>
+              </li>
+              <li id="parks-link">
+                <Link to="/fair">Fair Grounds</Link>
+              </li>
+            </ul>
+          </div>
 
-          <hr />
 
-          <Route exact path="/reservoir" component={Reservoir} />
-          <Route exact path="/ernsthausen" component={Ernsthausen} />
-          <Route exact path="/fair" component={Fair} />
+            <Route exact path="/reservoir" component={Reservoir} />
+            <Route exact path="/ernsthausen" component={Ernsthausen} />
+            <Route exact path="/fair" component={Fair} />
         </div>
       </Router>
     );

@@ -1,12 +1,10 @@
-
-#navbar-link {
-  color: black;
-  font-family: 'Playfair Display', serif;
+.parks-page {
+  background-color:white;
 }
-.page {
-  background-color: red;
-  margin-top: -15px;
-  color: white;
+
+#parks-links {
+  margin-bottom: -10px;
+  background-color: yellowgreen;
 }
 
 #parks-link {
