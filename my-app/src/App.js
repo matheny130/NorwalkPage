@@ -9,6 +9,7 @@ import Park from "./components/Pages/Parks/parksHome";
 import Community from "./components/Pages/Community/communityHome";
 import EconDev from "./components/Pages/EconDev/econDevHome";
 import Contact from "./components/Pages/Contact/contactHome";
+import Department from "./components/Pages/Departments/departmentHome"
 
 import './App.css';
 
@@ -22,6 +23,7 @@ const App = () => (
       <Route path="/community" component={Community} />
       <Route path="/econDev" component={EconDev} />
       <Route path="/contact" component={Contact} />
+      <Route path="/departments" component={Department} />
     </div>
   </Router>
 );
