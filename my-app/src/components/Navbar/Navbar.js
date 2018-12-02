@@ -28,18 +28,18 @@ class NavExample extends Component {
               <li id="navbar-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/parksHome">Parks</Link>
               </li>
-              <li id="community-link">
+              <li id="navbar-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/departmentHome">Departments</Link>
               </li>
-              <li id="community-link">
+              <li id="navbar-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/econDevHome">Economic Development</Link>
               </li>
-              <li id="community-link">
+              <li id="navbar-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/contactHome">Contact Page</Link>
               </li>
             </ul>
           </div>
-          <div class="community-link-content">
+          <div class="navbar-link-content">
             <Route path="/" component={Home} />
             <Route exact path="/communityHome" component={Community} />
             <Route exact path="/parksHome" component={Park} />
