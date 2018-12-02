@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Park from "./components/Pages/Parks/parksHome";
 import Community from "./components/Pages/Community/communityHome";
 import EconDev from "./components/Pages/EconDev/econDevHome";
+import Contact from "./components/Pages/Contact/contactHome";
 
 import './App.css';
 
@@ -20,6 +21,7 @@ const App = () => (
       <Route path="/parks" component={Park} />
       <Route path="/community" component={Community} />
       <Route path="/econDev" component={EconDev} />
+      <Route path="/contact" component={Contact} />
     </div>
   </Router>
 );

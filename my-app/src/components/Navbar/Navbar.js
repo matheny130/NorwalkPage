@@ -20,7 +20,7 @@ class NavExample extends Component {
           <div id="navbar-links">
             <ul>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/communityHome">Home</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/">Home</Link>
               </li>
               <li id="navbar-link">
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/communityHome">Community</Link>
