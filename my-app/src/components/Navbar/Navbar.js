@@ -10,7 +10,7 @@ import Department from "../Pages/Departments/departmentHome.js"
 //import { Navbar, NavbarBrand, Nav, NavLink, NavItem, Row, Col } from 'reactstrap';
 import './Navbar.css';
 //import CitySeal from "../../images/index.js"
-
+//import App from "./App.js"
 class NavExample extends Component {
 
   render() {
@@ -40,7 +40,7 @@ class NavExample extends Component {
             </ul>
           </div>
           <div class="navbar-link-content">
-            <Route path="/" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/communityHome" component={Community} />
             <Route exact path="/parksHome" component={Park} />
             <Route exact path="/departmentsHome" component={Department} />
