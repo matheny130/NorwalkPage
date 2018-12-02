@@ -1,15 +1,15 @@
 
-#navbar-link {
+#navbar-links {
   color: #fff;
   font-family: 'Playfair Display', serif;
 }
-.navbar-custom {
+.navbar {
   background-color: blue;
   margin-top: -15px;
   color: #fff;
 }
 
-#link {
+#navbar-link {
   display: inline-block;
   padding-right: 42px;
   margin-right: 75px;
