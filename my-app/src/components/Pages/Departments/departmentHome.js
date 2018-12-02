@@ -20,13 +20,13 @@ class Department extends React.Component {
           <div id="parks-links">
             <ul>
               <li id="parks-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/reservoir">Reservoir</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/reservoir">Link1</Link>
               </li>
               <li id="parks-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/ernsthausen">Rec Center</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/ernsthausen">Link2</Link>
               </li>
               <li id="parks-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/fair">Fair Grounds</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/fair">Link3</Link>
               </li>
             </ul>
           </div>

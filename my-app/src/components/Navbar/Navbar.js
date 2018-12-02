@@ -23,29 +23,29 @@ class NavExample extends Component {
                 <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/">Home</Link>
               </li>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/communityHome">Community</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/Community">Community</Link>
               </li>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/parksHome">Parks</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/Parks">Parks</Link>
               </li>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/departmentHome">Departments</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/Departments">Departments</Link>
               </li>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/econDevHome">Economic Development</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/EconDev">Economic Development</Link>
               </li>
               <li id="navbar-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/contactHome">Contact Page</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/Contact">Contact Page</Link>
               </li>
             </ul>
           </div>
           <div class="navbar-link-content">
             <Route exact path="/" component={Home} />
-            <Route exact path="/communityHome" component={Community} />
-            <Route exact path="/parksHome" component={Park} />
-            <Route exact path="/departmentsHome" component={Department} />
-            <Route exact path="/econDevHome" component={Business} />
-            <Route exact path="/contactHome" component={Contact} />
+            <Route exact path="/community" component={Community} />
+            <Route exact path="/parks" component={Park} />
+            <Route exact path="/departments" component={Department} />
+            <Route exact path="/EconDev" component={Business} />
+            <Route exact path="/Contact" component={Contact} />
           </div>
         </div>
 
