@@ -16,26 +16,26 @@ class NavExample extends Component {
   render() {
     return (
       <Router>
-        <div className="community-page">
-          <div id="community-links">
+        <div className="navbar">
+          <div id="navbar-links">
             <ul>
-              <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/communityHome">Home</Link>
+              <li id="navbar-link">
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/communityHome">Home</Link>
+              </li>
+              <li id="navbar-link">
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/communityHome">Community</Link>
+              </li>
+              <li id="navbar-link">
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/parksHome">Parks</Link>
               </li>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/communityHome">Community</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/departmentHome">Departments</Link>
               </li>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/parksHome">Parks</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/econDevHome">Economic Development</Link>
               </li>
               <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/departmentHome">Departments</Link>
-              </li>
-              <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/econDevHome">Economic Development</Link>
-              </li>
-              <li id="community-link">
-                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Lora" }} to="/contactHome">Contact Page</Link>
+                <Link style={{ textDecoration: "none", color: "white", fontFamily: "Playfair Display" }} to="/contactHome">Contact Page</Link>
               </li>
             </ul>
           </div>
